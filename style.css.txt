@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  padding: 20px;
+  color: #333;
+}
+
+h1 {
+  color: #004080;
+}
+
+.malla {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.semestre {
+  background: white;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  width: 300px;
+}
+
+.asignatura {
+  background: #eee;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.asignatura:hover {
+  background: #ddd;
+}
+
+.aprobada {
+  background: #c8e6c9;
+  text-decoration: line-through;
+}
+
+.en-curso {
+  background: #fff9c4;
+}
+
+#progreso {
+  margin-bottom: 20px;
+  font-weight: bold;
+}

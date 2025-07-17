@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Malla Ingeniería en Informática</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Malla de Ingeniería en Informática</h1>
+  <p>Haz clic en cada asignatura para marcarla como aprobada o en curso.</p>
+
+  <div id="progreso">Progreso: 0%</div>
+
+  <div class="malla">
+
+    <div class="semestre">
+      <h2>1° Semestre</h2>
+      <div class="asignatura" data-id="prog1">Programación I</div>
+      <div class="asignatura" data-id="mate1">Matemática I</div>
+      <div class="asignatura" data-id="com">Comunicación efectiva</div>
+    </div>
+
+    <div class="semestre">
+      <h2>2° Semestre</h2>
+      <div class="asignatura" data-id="prog2">Programación II</div>
+      <div class="asignatura" data-id="bd1">Base de Datos I</div>
+      <div class="asignatura" data-id="ingles">Inglés Técnico</div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
